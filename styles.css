@@ -11,6 +11,9 @@ html {
 
 .box {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 }
 
@@ -29,24 +32,6 @@ html {
     flex-shrink: 2;
 }
 
-.box4 {
-    background: #34495e;
-    flex-shrink: 2;
-}
-
-.box5 {
-    background: #f1c40f;
-    flex-shrink: 2;
-    
-}
-
-.box6 {
-    background: #e67e22;
-    
-    flex: 1 0;
-    
-}
-
 .menu {
     /*background-color: grey;
     height: 500px;
@@ -61,3 +46,4 @@ html {
     justify-content: center;
     flex-wrap: wrap;
 }
+

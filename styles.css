@@ -9,7 +9,7 @@ html {
     font-family: arial;
 }
 
-.box {
+.menu {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -17,33 +17,11 @@ html {
     
 }
 
-.box1 {
-    background: #1abc9c;
-    flex-shrink: 2;
+
+@media (min-width: 600px)
+{
+    .menu
+    {
+        flex-direction: row;
+    }
 }
-
-.box2 {
-    background: #3498db;
-    flex-shrink: 2;
-}
-
-.box3 {
-    background: #9b49b6;
-    flex-shrink: 2;
-}
-
-.menu {
-    /*background-color: grey;
-    height: 500px;
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    align-content: flex-start;*/
-
-    display: flex;
-    gap: 20px;
-    flex-direction: row-reverse;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
